@@ -9,8 +9,8 @@ export const menuList = [
     },
     {
         id: "1",
-        text: "PORTFOLIO",
-        link: "/portfolio",
+        text: "experience",
+        link: "/experience",
         target: 0
     },
     {
