@@ -1,32 +1,47 @@
+import { FaLinkedin, FaInstagram, FaWhatsapp } from "react-icons/fa";
+
 export const menuList = [
     {
-        id: "1",
-        text: "Home",
+        id: "0",
+        text: "I'M RICARDO",
         link: "/",
         target: 0
     },
     {
         id: "1",
-        text: "Portfolio",
+        text: "PORTFOLIO",
         link: "/portfolio",
         target: 0
     },
     {
         id: "3",
-        text: "CV",
+        text: "CURRICULUM",
         link: "/cv",
         target: 0
     },
     {
         id: "4",
-        text: "Contact",
+        text: "CONTACT",
         link: "/Contact",
         target: 0
     },
+]
+
+export const socialMedias = [
     {
-        id: "5",
-        text: "wpp",
-        link: "",
-        target: 0
-    },
+        i: 0,
+        icon: <FaLinkedin />,
+        name: "Linked in",
+        link: "#"
+    },{
+        i: 1,
+        icon: <FaInstagram />,
+        name: "instagram",
+        link: "#"
+    },{
+        i: 2,
+        icon: <FaWhatsapp />,
+        name:"Whatsapp" ,
+        link: "#"
+    }
 ]
