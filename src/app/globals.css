@@ -9,6 +9,22 @@
 
 
 @layer base{
+   @keyframes shine {
+    0%, 100% { background-color: black; }
+    50% { background-color: red; }
+  }
+  .shine {
+    animation: shine 3s ease-in-out infinite;
+  }
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+  }
+  .float {
+    animation: float 3s ease-in-out infinite;
+  }
+
   /* Estilo para esconder scrollbar no iPad (Safari/WebKit) */
   .scrollbar-hide::-webkit-scrollbar {
     display: none !important;

@@ -1,5 +1,4 @@
 import Image from "next/image";
-import {  } from "next/navigation";
 
 export default function Experience() {
     return <div>
